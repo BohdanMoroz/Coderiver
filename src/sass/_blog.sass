@@ -1,0 +1,180 @@
+.blog
+	height: 5000px
+	width: 100%
+	margin-bottom: 40px
+	
+	+sm
+		margin-top: -40px
+
+.title
+	text-transform: uppercase
+	font-family: "Bebas Bold", sans-serif
+	color: #e8603c
+	letter-spacing: 0.5px
+
+	&--h1
+		font-size: 22px
+		letter-spacing: 0.37px
+		
+	&--h2
+		font-size: 18px
+		
+		&--sidebar
+			float: left
+			margin-right: 20px
+			margin-top: -2px
+		
+	&--h3
+		font-size: 14px
+		margin-bottom: 4px
+		
+	&--h4
+		text-transform: none
+		font-family: "HelveticaNeue", sans-serif
+		font-size: 11px
+		color: #bababa
+		margin-top: 5px
+		margin-bottom: 13px
+
+.post
+	margin-right: 26.3%
+	
+	+md
+		margin-right: 0
+
+	&--is-first
+		margin-top: 0
+		margin-right: 26.3%
+		
+		+md
+			margin-right: 26.3%
+			
+		+sm
+			margin-right: 0
+
+	&__icon
+		width: 9.93%
+		height: auto
+		float: left
+		
+	&__content
+		width: 88.5%
+		margin-left: 1.4%
+		float: right
+		
+	&__image
+		width: 100%
+		height: auto
+		margin-bottom: 17px
+		
+	&__info
+		width: 17%
+		margin-right: 4.8% 
+		float: left
+			
+	&--with-image
+		margin-top: 55px
+
+
+	&--with-quote
+		margin-top: 45px
+		
+	&--with-description
+		margin-top: 44px
+
+.text
+	text-align: left
+	letter-spacing: -0.2px
+	line-height: 17px
+	color: #414141
+	font-family: "HelveticaNeue", sans-serif
+	width: 100%
+	
+	&--type--article
+		margin-top: 12px
+		margin-bottom: 45px
+		padding-left: 21.79%
+		padding-right: 2.67%
+		font-size: 12px
+		
+	&--type--quote
+		background-color: #f7f7f7
+		width: 97.7%
+		margin-bottom: 38px
+		padding-top: 20px
+		padding-bottom: 18px
+		padding-left: 11.62%
+		padding-right: 2.67%
+		font-size: 14px
+		
+	&--type--description
+		margin-top: 16px
+		margin-bottom: 41px
+		padding-right: 2.67%
+		font-size: 11px
+		
+	&--type--sidebar-text
+		margin-bottom: 34px
+		font-size: 12px
+		letter-spacing: -0.4px
+		line-height: 14px
+
+.description__link
+	text-decoration: none
+	font-family: "HelveticaNeue", sans-serif
+	font-size: 12px
+	letter-spacing: -0.2px
+	color: #a0a0a0
+	
+	&:hover
+		text-decoration: underline
+
+.quote__icon
+	float: left
+	margin-left: 5%
+	padding-top: 17px
+
+.is-clickable
+	text-decoration: none
+	color: #bababa
+	
+	&:hover
+		text-decoration: underline
+		
+.underline
+	width: 64.5%
+	margin-left: 8.25%
+	height: 14px
+	background-image: url("../img/underline.png")
+	clear: both
+	
+	+md
+		width: 77%
+		margin-left: 11.5%
+	
+.page__number
+	list-style: none
+	margin-top: 41px
+	margin-left: 8.5%
+	
+	+md
+		margin-left: 45.5%
+	
+	+sm
+		margin-left: 37%
+
+	&__item
+		float: left
+		margin-right: 3px
+		padding-top: 3px
+		
+	&__link
+		text-decoration: none
+		color: #ffffff
+		font-family: "Bebas Regular", sans-serif
+		font-size: 17px
+		background-image: url("../img/page_number_bg.png")
+		padding: 3px 10px
+		
+		&_is-active
+			background-image: url("../img/active_page_number_bg.png")

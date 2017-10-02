@@ -1,0 +1,92 @@
+.header
+	height: 76px
+	width: 100%
+	margin: 0 auto
+	padding-left: 16.5%
+	padding-right: 16.5%
+	
+	+md
+		padding-left: 19px
+		padding-right: 19px
+		
+	+sm
+		height: 50px
+	
+.logo
+	float: left
+	text-decoration: none
+	font-family: "Bebas Bold", sans-serif
+	font-size: 45px
+	color: #e9603a
+	margin-top: 12px
+	letter-spacing: 1.5px
+	
+	+sm
+		font-size: 36px
+	
+	&--light
+		color: #f3b09e
+	
+.nav
+	float: right
+	list-style: none
+	display: block
+	
+	+sm
+		display: none
+		float: none
+		position: absolute
+		margin-top: 45px
+		width: 100%
+		margin-bottom: 1000px
+	
+	&__item
+		float: left
+		margin-top: 30px
+		margin-left: 27px
+		
+		&:hover
+			+sm
+				background-color: #FFE19C
+		
+		+md
+			margin-left: 50px
+			
+		+sm
+			float: none
+			margin-top: 0
+			margin-left: -17px
+			text-align: center
+			padding-top: 4px
+			padding-bottom: 4px
+		
+	&__link
+		text-decoration: none
+		font-family: "Bebas", sans-serif
+		font-size: 21px
+		color: #b9b9b9
+		
+		&:hover
+			text-decoration: underline
+			
+		&--is-active
+			color: #e8603c
+			
+
+.burger
+	display: none
+	width: 1px
+	height: auto
+	background-image: url("../../img/burger.png")
+	background-repeat: no-repeat
+	-webkit-background-size: contain
+	-o-background-size: contain
+	background-size: contain
+
+	+sm
+		width: 25px 
+		height: 25px
+		display: block
+		margin-top: 17px
+		float: right
+		background-color: transparent

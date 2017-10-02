@@ -1,0 +1,56 @@
+.sidebar
+	+sm
+		display: none
+		
+	height: auto
+	width: 21.3%
+	float: right
+	
+	&__menu
+		clear: both
+		list-style: none
+		margin-top: 8px
+		margin-bottom: 37px
+		
+		&__item
+			margin-bottom: -4px
+			
+			+md
+				margin-bottom: 5px
+
+		&__link
+			text-decoration: none
+			font-family: "HelveticaNeue Medium", sans-serif
+			font-size: 11px
+			color: #464646
+			
+			&:hover
+				text-decoration: underline
+				
+.rightline
+	margin-top: 4px
+	margin-bottom: 15px
+	height: 14px
+	background-image: url("../img/underline.png")
+	
+	&__article
+		margin-left: 43% 
+		
+	&__categories
+		margin-left: 40%
+
+	&__photos
+		margin-left: 50%
+		
+.grid
+	float: left
+	padding-top: 3px
+	display: grid
+	grid-template-areas: "grid-item grid-item grid-item grid-item" "grid-item grid-item grid-item grid-item"
+	grid-row-gap: 3px
+	grid-column-gap: 3px
+	
+	&__item
+		width: 45px
+		height: auto
+		
